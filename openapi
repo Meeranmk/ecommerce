@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: inventory-api
+  description: REST API for inventory service
+spec:
+  type: openapi
+  lifecycle: production
+  owner: team-inventory
+  definition:
+    $text: |
+      openapi: 3.0.0
+      info:
+        title: Inventory API
+        version: 1.0.0
+      ...
