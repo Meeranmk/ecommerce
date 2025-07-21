@@ -8,5 +8,5 @@ spec:
   owner: team-inventory
   providesApis:
     - inventory-api
- dependsOn:
+  dependsOn:
     - component:default/users-backend
