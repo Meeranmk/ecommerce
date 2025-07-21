@@ -5,7 +5,7 @@ metadata:
 spec:
   dependsOn:
     - component:default/user:guest
-    - component:default/shared-library
+    - component:user:guest
   type: service
   lifecycle: production
   owner: team-inventory
