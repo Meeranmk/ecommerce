@@ -3,10 +3,12 @@ kind: Component
 metadata:
   name: inventory-service
 spec:
+  dependsOn:
+    - component:default/backend-service
+    - component:default/shared-library
   type: service
   lifecycle: production
   owner: team-inventory
   providesApis:
     - inventory-api
-  dependsOn:
-    - component:default/users-backend
+  
