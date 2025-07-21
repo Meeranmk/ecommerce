@@ -4,7 +4,7 @@ metadata:
   name: inventory-service
 spec:
   dependsOn:
-    - component:default/backend-service
+    - component:default/user:guest
     - component:default/shared-library
   type: service
   lifecycle: production
