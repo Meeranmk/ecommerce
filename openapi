@@ -6,7 +6,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: team-inventory
+  owner: team-inventorynn
   definition:
     $text: |
       openapi: 3.0.0
